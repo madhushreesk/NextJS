@@ -1,0 +1,40 @@
+.navbar {
+    height: 75px;
+    margin: 0 0 2px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+}
+
+.ohLogo {
+    width: 398px;
+    height: 45px;
+}
+
+.logoContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        height: 54px;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.06);
+        background-color: #fff;
+    }
+
+    .logoContainer {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ohLogo {
+        width: 212.3px;
+        height: 24px;
+        object-fit: contain;
+    }
+}

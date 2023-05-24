@@ -1,0 +1,156 @@
+.mainDivContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstContainer {
+    height: 128px;
+    flex-grow: 0;
+    margin: 0 0 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #07090d;
+}
+
+.essentialText {
+    font-weight: normal;
+}
+
+.getTestedparameters {
+    height: 35px;
+    flex-grow: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01b37a;
+}
+
+.offerPriceBox {
+    height: 35px;
+    flex-grow: 0;
+    padding: 8px 24px 7px;
+    border: solid 3px #fff3e2;
+    background-color: #fff;
+}
+
+.offerPricetext {
+    height: 20px;
+    flex-grow: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #ff970a;
+}
+
+.priceBox {
+    height: 87px;
+    flex-grow: 0;
+    margin: 23px 0 0;
+    padding: 16px 30px 12px 24px;
+    border-radius: 24px;
+    background-color: rgba(255, 151, 10, 0.12);
+    display: flex;
+}
+
+.mrpPrice {
+    height: 59px;
+    flex-grow: 0;
+    margin: 0 26px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #07090d;
+}
+
+.rupeeSymbol {
+    height: 44px;
+    flex-grow: 0;
+    margin: 10px 0 5px 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.scratchPrice {
+    height: 44px;
+    flex-grow: 0;
+    margin: 10px 0 5px 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6b6b6b;
+    text-decoration: line-through;
+}
+
+.bookNowContainer {
+    margin-top: 10rem;
+}
+
+.bookNowFormSection {
+    height: 337px;
+    flex-grow: 0;
+    border-radius: 16px;
+    box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #fff 1%, #fff 100%);
+}
+
+
+.greenBorder {
+    height: 39px;
+    flex-grow: 0;
+    background-color: #01b37a;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.namelabelAndStar {
+    display: flex;
+}
+
+.requiredStar {
+    color: red;
+}
+
+.nameInputField {
+    height: 46px;
+    flex-grow: 0;
+    margin: 9px 0 0;
+    padding: 14px 135.6px 15px 19px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
